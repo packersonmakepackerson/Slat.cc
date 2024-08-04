@@ -20,6 +20,10 @@ function consolebegin()
         rconsoleprint("Incorrect Key"\n)
         rconsoleprint("Incorrect Key, Please make sure you have the correct key")
         rconsoleclear()
+        wait(2)
         consolebegin()
     end
 end
+
+
+consolebegin()
